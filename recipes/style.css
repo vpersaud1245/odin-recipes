@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: rgb(23, 23, 146);
+    color: white;
+    padding: 5px;
+}
+
+h2 {
+    color: rgb(23, 23, 146);
+}
+
+hr {
+    background-color: rgb(229, 229, 24);
+    height: 2px;
+}
