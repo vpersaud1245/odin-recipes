@@ -7,21 +7,42 @@ body {
     font-weight: 400;
 }
 
-.list {
-    display: inline-block;
-    text-align: center;
-    list-style: none;
-}
-
-button {
-    background-color: rgb(61, 61, 195);
-    color: white;
-    padding: 5px;
-
-}
-
 img {
-    height: auto;
+    height: 250px;
     width: 250px;
+}
+
+.recipe-card {
+    position: relative;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 500px;
+    height: 350px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-bottom:10px;
+}
+
+.card-photo {
+    display: flex;
+}
+
+.recipe-description {
+    height: 125;
+    width: 230;
+}
+
+.recipe-link {
+    position: absolute;
+    bottom: 0;
+}
+
+h4 {
+    width: 250px;
+    text-align: center;
+}
+
+.description-box {
+    text-align: center;
 }
 
